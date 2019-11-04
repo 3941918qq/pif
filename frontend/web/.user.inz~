@@ -1,0 +1,1 @@
+open_basedir=/www/wwwroot/pif/frontend/web/:/tmp/:/proc/

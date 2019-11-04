@@ -1,0 +1,70 @@
+
+#form_login
+{
+    margin-top: 30px;
+}
+
+#form_login .btn 
+{
+    width: 50%;
+    font-size: 16px;
+}
+
+#form_login button
+{
+    color: #fff;
+    background-color: #bd3333;
+}
+
+#form_login a
+{
+    border: solid 1px #bd3333;
+}
+
+
+/* .a-upload {
+    padding: 4px 10px;
+    height: 30px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+} */
+
+#form_register #btn_ok 
+{
+    width: 50%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #bd3333;
+}
+
+/* 登录页Banner图 */
+.banner
+{
+    margin-bottom: 20px;
+}

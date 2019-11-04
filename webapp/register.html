@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>捷安高科</title>
+    <link rel="icon" href="img/jagk.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class=" banner">
+        <img src="img/banner.jpg" width="100%">
+    </div>
+    <div class="container">
+        <!-- <div class="col-sm-12 text-center" style="margin-top: 15px; margin-bottom: 15px;">
+            <img src="img/garf.jpg" class="img-circle" width="130px" height="130px">
+        </div>
+        <div class="col-sm-12 text-center" style="margin-top: 15px; margin-bottom: 15px;">
+            <a href="#" class="a-upload">
+                <input type="file" name="" id="">上传头像
+            </a>
+        </div> -->
+        <form class="form" id="form_register">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</div>
+                    <input type="text" class="form-control" id="text_name" required>
+                </div>
+            </div>
+
+            <!-- <div class="form-group">
+                <div class="text-center">
+                    <label class="radio-inline">
+                        <input type="radio" value="m" name="sex" checked>男
+                    </label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="radio-inline">
+                        <input type="radio" value="f" name="sex">女
+                    </label>
+                </div>
+            </div> -->
+            <div class="form-group text-center">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary" style="width: 100px;">男</button>
+                    <button type="button" class="btn btn-default" style="width: 100px;">女</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">出生日期</div>
+                    <input type="date" class="form-control" id="text_birth" value="1980-01-01">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">所属单位</div>
+                    <input type="text" class="form-control" id="text_workunit" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">&nbsp;手&nbsp;机&nbsp;号</div>
+                    <input type="text" class="form-control" id="text_phonenumber" required>
+                    <div id="div_get_validcode" class="input-group-addon">获取</div>
+                </div>
+            </div>  
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">&nbsp;验&nbsp;证&nbsp;码</div>
+                    <input type="text" class="form-control" id="text_validcode" required>
+                    <div id="get_validcode" class="input-group-addon">&nbsp;60s</div>
+                </div>
+            </div>  
+            <div class="form-group text-center" >
+                <div class="col-xs-12">
+                    <button type="submit" id="btn_ok" class="btn btn-default form-control">注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</button>
+                </div>
+            </div> 
+        </form>
+
+    <div class="navbar-fixed-bottom text-center">
+        <img src="img/footer.png" height="20px" alt="捷安高科" style="margin-bottom: 15px;">
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
