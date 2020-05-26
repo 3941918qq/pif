@@ -37,8 +37,8 @@ return [
         ],
         'aliyun' => [
             'class' => 'saviorlv\aliyun\Sms',
-            'accessKeyId' => 'LTAI6yLrzOQxONCo',
-            'accessKeySecret' => 'tByZnmJxGdtROz2kGK46OyqmkwuJmZ'
+            'accessKeyId' => '',
+            'accessKeySecret' => ''
          ],
         'errorHandler' => [
             'errorAction' => 'site/error',
